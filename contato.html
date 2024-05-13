@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logo.png"></h1>
+            <nav>
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="email.html">Email</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nome">nome </label>
+            <input id="nome" placeholder="seu nome"    type="text">
+
+            <label for="email">Email</label>
+            <input id="Email"placeholder="seuemail@gmail.com" required type="text">
+
+            <label for="telefone"> telefone</label>
+            <input id="Telefone"  placeholder="(**) ****-****"        type="text">
+
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" required rows="10" id="mensagem"></textarea>
+            <P>Como prefere nosso contato</P>
+            <div>
+            <label for="Radio-email">Email</label>
+            <input type="radio" name="contato" value="email" id="Radio-email">
+
+            <label for=" Radio-telefone">Telefone</label>
+            <input type="radio" name="contato" value="telefone" id="Radio-telefone">
+
+            <label for="Radio-Whatsapp">Radio-Whatsapp</label>
+            <input type="radio" name="contato" checked value="" id="Radio-Whatsapp">
+            </div>
+           <input type="checkbox" class="checkbox" name="contato" checked id="contato"> 
+          <P>  Gostaria de receber nosso contato?</P>
+
+           <p>Qual horario vc prefere?</p>
+          <div> <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>noite</option>
+        
+     
+             </select></div>
+            <input type="submit"class="enviar" value="Enviar formulario">
+
+        </form>
+
+    </main>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p>&copy;copyright:Babearia do job- desenvolvido por :thalyson</p>
+    </footer>
+</body>
+
+
+</html>
